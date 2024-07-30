@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+
+
+body {
+    font-family: 'Unbounded', sans-serif;
+
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.about__call {
+    background-image: url(./assets/aboutBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.guarante {
+    background: radial-gradient(498.32% 130.33% at 92.87% 11.25%, #33A9FF 0%, #33FFF3 100%);
+}
+.accordion{
+    border: none !important;
+   outline: none !important;
+}
+.callBg{
+    background: radial-gradient(333.17% 80.94% at 51.32% 69.21%, #3DA0FC 0%, rgba(2, 227, 214, .2) 100%);
+
+}
